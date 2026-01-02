@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   description:
     "A production-ready blogging platform with SEO optimization, user authentication, and content management",
   keywords: "blog, articles, writing, content, platform",
-  generator: "v0.app",
   robots: {
     index: true,
     follow: true,
@@ -28,20 +27,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
+    icon: "/favicon.png",
     apple: "/apple-icon.png",
   },
   openGraph: {
